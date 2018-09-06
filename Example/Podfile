@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BaseMVC_Example' do
+  pod 'BaseMVC', :path => '../'
+
+  target 'BaseMVC_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
