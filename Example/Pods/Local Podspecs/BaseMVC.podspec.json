@@ -1,19 +1,19 @@
 {
   "name": "BaseMVC",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "A short description of BaseMVC.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/413655409@qq.com/BaseMVC",
+  "homepage": "https://github.com/DaoPinWong/BaseMVC",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "413655409@qq.com": "wangdaopin@yingroup.com"
+    "413655409@qq.com": "wangdaopin@moiiee.com"
   },
   "source": {
-    "git": "https://github.com/413655409@qq.com/BaseMVC.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/DaoPinWong/BaseMVC.git",
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
@@ -43,6 +43,26 @@
       "name": "no-arc",
       "source_files": "BaseMVC/Classes/Component/NSObjectSafe/*.{h,m}",
       "requires_arc": false
+    },
+    {
+      "name": "Categories",
+      "source_files": "BaseMVC/Classes/Categories/*.{h,m}"
+    },
+    {
+      "name": "Component",
+      "source_files": "BaseMVC/Classes/Component/*.{h,m}"
+    },
+    {
+      "name": "Controller",
+      "source_files": "BaseMVC/Classes/Controller/*.{h,m}"
+    },
+    {
+      "name": "Model",
+      "source_files": "BaseMVC/Classes/Model/*.{h,m}"
+    },
+    {
+      "name": "View",
+      "source_files": "BaseMVC/Classes/View/*.{h,m}"
     }
   ]
 }

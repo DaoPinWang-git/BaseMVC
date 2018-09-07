@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'BaseMVC'
-    s.version          = '0.1.1'
+    s.version          = '0.1.2'
     s.summary          = 'A short description of BaseMVC.'
 
     # This description is used to generate tags and improve search results.
@@ -50,6 +50,38 @@ Pod::Spec.new do |s|
 
     end
 
+    s.subspec 'Categories' do |sCategories|
+
+        sCategories.source_files = 'BaseMVC/Classes/Categories/*.{h,m}'
+
+    end
+
+    s.subspec 'Component' do |sComponent|
+
+        sComponent.source_files = 'BaseMVC/Classes/Component/*.{h,m}'
+
+    end
+
+    s.subspec 'Controller' do |sController|
+
+        sController.source_files = 'BaseMVC/Classes/Controller/*.{h,m}'
+
+    end
+
+    s.subspec 'Model' do |sModel|
+
+        sModel.source_files = 'BaseMVC/Classes/Model/*.{h,m}'
+
+    end
+
+    s.subspec 'View' do |sView|
+
+        sView.source_files = 'BaseMVC/Classes/View/*.{h,m}'
+
+    end
+
+
+
 
     # s.requires_arc = false
 
@@ -59,11 +91,11 @@ Pod::Spec.new do |s|
 
     # s.public_header_files = 'Pod/Classes/**/*.h'
     # s.frameworks = 'UIKit', 'MapKit'
-     s.dependency 'DPNetworking'
-     s.dependency 'Masonry'
-     s.dependency 'MBProgressHUD'
-     s.dependency 'MJRefresh'
-     s.dependency 'MJExtension'
+    s.dependency 'DPNetworking'
+    s.dependency 'Masonry'
+    s.dependency 'MBProgressHUD'
+    s.dependency 'MJRefresh'
+    s.dependency 'MJExtension'
 
 end
 
