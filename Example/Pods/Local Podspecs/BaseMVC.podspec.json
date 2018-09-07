@@ -1,0 +1,48 @@
+{
+  "name": "BaseMVC",
+  "version": "0.1.0",
+  "summary": "A short description of BaseMVC.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/413655409@qq.com/BaseMVC",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "413655409@qq.com": "wangdaopin@yingroup.com"
+  },
+  "source": {
+    "git": "https://github.com/413655409@qq.com/BaseMVC.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "BaseMVC/Classes/**/*",
+  "requires_arc": true,
+  "exclude_files": "BaseMVC/Classes/Component/NSObjectSafe/*.{h,m}",
+  "dependencies": {
+    "DPNetworking": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "MBProgressHUD": [
+
+    ],
+    "MJRefresh": [
+
+    ],
+    "MJExtension": [
+
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "no-arc",
+      "source_files": "BaseMVC/Classes/Component/NSObjectSafe/*.{h,m}",
+      "requires_arc": false
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+framework module BaseMVC {
+  umbrella header "BaseMVC-umbrella.h"
+
+  export *
+  module * { export * }
+}

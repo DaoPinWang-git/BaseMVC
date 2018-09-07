@@ -6,6 +6,10 @@ target 'BaseMVC_Example' do
   target 'BaseMVC_Tests' do
     inherit! :search_paths
 
-    
+    pod 'DPNetworking'
+    pod 'Masonry'
+    pod 'MBProgressHUD'
+    pod 'MJRefresh'
+    pod 'MJExtension'
   end
 end

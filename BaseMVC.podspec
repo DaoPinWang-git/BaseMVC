@@ -7,36 +7,63 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'BaseMVC'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of BaseMVC.'
+    s.name             = 'BaseMVC'
+    s.version          = '0.1.0'
+    s.summary          = 'A short description of BaseMVC.'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+    # This description is used to generate tags and improve search results.
+    #   * Think: What does it do? Why did you write it? What is the focus?
+    #   * Try to keep it short, snappy and to the point.
+    #   * Write the description between the DESC delimiters below.
+    #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+    s.description      = <<-DESC
+    TODO: Add long description of the pod here.
+    DESC
 
-  s.homepage         = 'https://github.com/413655409@qq.com/BaseMVC'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '413655409@qq.com' => 'wangdaopin@yingroup.com' }
-  s.source           = { :git => 'https://github.com/413655409@qq.com/BaseMVC.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+    s.homepage         = 'https://github.com/413655409@qq.com/BaseMVC'
+    # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+    s.license          = { :type => 'MIT', :file => 'LICENSE' }
+    s.author           = { '413655409@qq.com' => 'wangdaopin@yingroup.com' }
+    s.source           = { :git => 'https://github.com/413655409@qq.com/BaseMVC.git', :tag => s.version.to_s }
+    # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+    s.ios.deployment_target = '8.0'
 
-  s.source_files = 'BaseMVC/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'BaseMVC' => ['BaseMVC/Assets/*.png']
-  # }
+    s.source_files = 'BaseMVC/Classes/**/*'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+    # s.resource_bundles = {
+    #   'BaseMVC' => ['BaseMVC/Assets/*.png']
+    # }
+
+    s.requires_arc = true
+
+    non_arc_files = 'BaseMVC/Classes/Component/NSObjectSafe/*.{h,m}'
+
+    s.exclude_files = non_arc_files
+
+    s.subspec 'no-arc' do |sp|
+
+        sp.source_files = non_arc_files
+
+        sp.requires_arc = false
+
+    end
+
+
+    # s.requires_arc = false
+
+    # s.requires_arc = ['BaseMVC/Classes/Component/NSObjectSafe/*.{h,m}']
+
+
+
+    # s.public_header_files = 'Pod/Classes/**/*.h'
+    # s.frameworks = 'UIKit', 'MapKit'
+     s.dependency 'DPNetworking'
+     s.dependency 'Masonry'
+     s.dependency 'MBProgressHUD'
+     s.dependency 'MJRefresh'
+     s.dependency 'MJExtension'
+
 end
+

@@ -1,0 +1,69 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - BaseMVC (0.1.0):
+    - BaseMVC/no-arc (= 0.1.0)
+    - DPNetworking
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - MJRefresh
+  - BaseMVC/no-arc (0.1.0):
+    - DPNetworking
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - MJRefresh
+  - DPNetworking (0.0.3):
+    - AFNetworking
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.1.0)
+  - MJExtension (3.0.15.1)
+  - MJRefresh (3.1.15.7)
+
+DEPENDENCIES:
+  - BaseMVC (from `../`)
+  - DPNetworking
+  - Masonry
+  - MBProgressHUD
+  - MJExtension
+  - MJRefresh
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - DPNetworking
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - MJRefresh
+
+EXTERNAL SOURCES:
+  BaseMVC:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  BaseMVC: 0f20aaba14d0f401622af12ecb0a31e20091d58a
+  DPNetworking: bb0ecedb04a333d50fd9fd8813ee3489671cc8b5
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
+  MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
+
+PODFILE CHECKSUM: 1c1654af8cb4f38e83d431f17702a91fe4fcf26a
+
+COCOAPODS: 1.5.0.beta.1

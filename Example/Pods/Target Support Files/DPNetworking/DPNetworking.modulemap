@@ -1,0 +1,6 @@
+framework module DPNetworking {
+  umbrella header "DPNetworking-umbrella.h"
+
+  export *
+  module * { export * }
+}
