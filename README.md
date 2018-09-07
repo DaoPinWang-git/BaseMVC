@@ -22,7 +22,7 @@ pod 'BaseMVC'
 
 ## Author
 
-413655409@qq.com, wangdaopin@yingroup.com
+413655409@qq.com, wangdaopin@moiiee.com
 
 ## License
 
