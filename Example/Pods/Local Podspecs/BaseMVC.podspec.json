@@ -1,6 +1,6 @@
 {
   "name": "BaseMVC",
-  "version": "0.1.3",
+  "version": "0.1.5",
   "summary": "A short description of BaseMVC.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/DaoPinWong/BaseMVC",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/DaoPinWong/BaseMVC.git",
-    "tag": "0.1.3"
+    "tag": "0.1.5"
   },
   "platforms": {
     "ios": "8.0"
@@ -21,6 +21,7 @@
   "source_files": "BaseMVC/Classes/**/*",
   "requires_arc": true,
   "exclude_files": "BaseMVC/Classes/Component/NSObjectSafe/*.{h,m}",
+  "public_header_files": "BaseMVC/Classes/**/*.h",
   "dependencies": {
     "DPNetworking": [
 

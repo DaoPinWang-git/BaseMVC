@@ -14,49 +14,49 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
-  - BaseMVC (0.1.3):
-    - BaseMVC/Categories (= 0.1.3)
-    - BaseMVC/Component (= 0.1.3)
-    - BaseMVC/Controller (= 0.1.3)
-    - BaseMVC/Model (= 0.1.3)
-    - BaseMVC/no-arc (= 0.1.3)
-    - BaseMVC/View (= 0.1.3)
+  - BaseMVC (0.1.5):
+    - BaseMVC/Categories (= 0.1.5)
+    - BaseMVC/Component (= 0.1.5)
+    - BaseMVC/Controller (= 0.1.5)
+    - BaseMVC/Model (= 0.1.5)
+    - BaseMVC/no-arc (= 0.1.5)
+    - BaseMVC/View (= 0.1.5)
     - DPNetworking
     - Masonry
     - MBProgressHUD
     - MJExtension
     - MJRefresh
-  - BaseMVC/Categories (0.1.3):
+  - BaseMVC/Categories (0.1.5):
     - DPNetworking
     - Masonry
     - MBProgressHUD
     - MJExtension
     - MJRefresh
-  - BaseMVC/Component (0.1.3):
+  - BaseMVC/Component (0.1.5):
     - DPNetworking
     - Masonry
     - MBProgressHUD
     - MJExtension
     - MJRefresh
-  - BaseMVC/Controller (0.1.3):
+  - BaseMVC/Controller (0.1.5):
     - DPNetworking
     - Masonry
     - MBProgressHUD
     - MJExtension
     - MJRefresh
-  - BaseMVC/Model (0.1.3):
+  - BaseMVC/Model (0.1.5):
     - DPNetworking
     - Masonry
     - MBProgressHUD
     - MJExtension
     - MJRefresh
-  - BaseMVC/no-arc (0.1.3):
+  - BaseMVC/no-arc (0.1.5):
     - DPNetworking
     - Masonry
     - MBProgressHUD
     - MJExtension
     - MJRefresh
-  - BaseMVC/View (0.1.3):
+  - BaseMVC/View (0.1.5):
     - DPNetworking
     - Masonry
     - MBProgressHUD
@@ -92,7 +92,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  BaseMVC: ac6b6b9b00397d25f152e14c680176e6184e74d3
+  BaseMVC: 1c5b406bf934a6bc97f60580f24f9177d5f2384b
   DPNetworking: bb0ecedb04a333d50fd9fd8813ee3489671cc8b5
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9

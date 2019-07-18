@@ -7,7 +7,6 @@
 //
 
 #import "BaseTableViewCell.h"
-#import "TextModel.h"
 
 @interface TextCell : BaseTableViewCell
 @property (nonatomic ,strong) UILabel *titleLabel;

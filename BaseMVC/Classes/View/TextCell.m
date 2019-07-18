@@ -8,8 +8,6 @@
 
 #import "TextCell.h"
 #import "Masonry.h"
-#import "NSString+BaseAdditions.h"
-#import "UIView+BaseAdditions.h"
 
 @implementation TextCell
 

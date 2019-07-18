@@ -35,6 +35,11 @@
 #import "MBProgressHUD+BaseAdd.h"
 #import "UIImage+BaseAdditions.h"
 
+/// Component
+#import "RefreshHeader.h"
+#import "RefreshFooter.h"
+
+
 
 
 

@@ -7,10 +7,6 @@
 //
 
 #import "BaseListViewController.h"
-#import "RefreshHeader.h"
-#import "RefreshFooter.h"
-#import "BaseTableViewCell.h"
-#import "TextCell.h"
 #import "DPNetworking.h"
 
 @interface BaseListViewController ()

@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 #import "BaseTableViewCell.h"
-#import "TextModel.h"
 
 #define TextDidChangeNotification [[NSNotificationCenter defaultCenter] postNotificationName:TextDidChangeNotificationName object:nil]
 #define TextDidChangeNotificationName @"TextDidChangeNotificationName"

@@ -9,11 +9,6 @@
 #import "BaseCollectionViewController.h"
 #import "Masonry.h"
 #import "BaseConfig.h"
-#import "RefreshHeader.h"
-#import "RefreshFooter.h"
-#import "BaseCollectionViewCell.h"
-#import "UIViewController+BaseAdditions.h"
-#import "NSString+BaseAdditions.h"
 #import "DPNetworking.h"
 
 @interface BaseCollectionViewController ()

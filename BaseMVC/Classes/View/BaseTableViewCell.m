@@ -9,7 +9,6 @@
 #import "BaseTableViewCell.h"
 #import "BaseConfig.h"
 #import "Masonry.h"
-#import "UIView+BaseAdditions.h"
 
 @implementation BaseTableViewCell
 

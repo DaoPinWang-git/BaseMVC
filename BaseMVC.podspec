@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'BaseMVC'
-    s.version          = '0.1.5'
+    s.version          = '0.1.6'
     s.summary          = 'A short description of BaseMVC.'
 
     # This description is used to generate tags and improve search results.
@@ -87,7 +87,7 @@ Pod::Spec.new do |s|
 
     # s.requires_arc = ['BaseMVC/Classes/Component/NSObjectSafe/*.{h,m}']
 
-
+    s.requires_arc = ['BaseMVC/Classes/BaseHeader.h']
 
     # s.public_header_files = 'Pod/Classes/**/*.h'
     # s.frameworks = 'UIKit', 'MapKit'

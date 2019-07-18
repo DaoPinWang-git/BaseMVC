@@ -8,8 +8,6 @@
 
 #import "BaseDetailsViewController.h"
 #import "Masonry.h"
-#import "TextCell.h"
-#import "UIView+BaseAdditions.h"
 
 @interface BaseDetailsViewController ()<UITableViewDelegate,UITableViewDataSource>
 

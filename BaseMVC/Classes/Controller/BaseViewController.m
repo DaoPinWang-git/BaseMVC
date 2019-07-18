@@ -7,10 +7,7 @@
 //
 
 #import "BaseViewController.h"
-#import "NSString+BaseAdditions.h"
 #import "Masonry.h"
-#import "UIView+BaseAdditions.h"
-#import "MBProgressHUD+BaseAdd.h"
 #import "BaseConfig.h"
 #import "DPNetworking.h"
 
