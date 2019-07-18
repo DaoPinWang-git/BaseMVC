@@ -11,20 +11,15 @@
 
 @interface UIImage (BaseAdditions)
 
-- (UIImage *)resizableImage;
+
 + (UIImage *)imageWithColor:(UIColor *)color opaque:(BOOL)opaque size:(CGSize)size;
 + (UIImage *)roundedImageWithColor:(UIColor *)color opaque:(BOOL)opaque size:(CGSize)size cornerRadius:(CGFloat)cornerRadius;
 + (UIImage *)imageWithColor:(UIColor *)color opaque:(BOOL)opaque size:(CGSize)size shape:(UIBezierPath *)shape;
-- (UIImage *)fixOrientation;
 
-+ (UIImage *)squareImageFromImage:(UIImage *)image scaledToSize:(CGFloat)newSize;
+- (UIImage *)fixOrientation;
 
 //图片默认压缩
 - (UIImage *)defultScale;
-
-
-/// 截取圆形图片
-- (UIImage *)cutImageWithRadius:(CGFloat)radius;
 
 /**
  *  重设图片大小

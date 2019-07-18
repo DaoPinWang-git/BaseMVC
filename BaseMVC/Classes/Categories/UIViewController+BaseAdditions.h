@@ -10,7 +10,16 @@
 
 @interface UIViewController (BaseAdditions)
 
+/**
+ *  title自定义，不调用back方法，支持左滑退出
+ *
+ */
+- (void)setBackBarButtonItemWithTitle:(NSString *)title;
+
+- (void)setBackBarButtonItemWithImage:(UIImage *)image;
+
 - (void)back;
+
 
 - (void)setLeftBarButtonWithTitle:(NSString *)title action:(SEL)action;
 
@@ -24,7 +33,6 @@
 
 - (void)setRightBarButtonWithImage:(UIImage *)image title:(NSString *)title action:(SEL)action;
 
-+ (UIViewController *)viewInViewController:(UIView *)view;
 
 - (void)showMsg:(NSString *)title msg:(NSString *)msg butTitle:(NSString *)butTitle handler:(void (^)(UIAlertAction *action))handler;
 - (void)showMsgWithTwoButs:(NSString *)title
