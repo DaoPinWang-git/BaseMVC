@@ -137,7 +137,7 @@
 
 
 - (void)getListRequest:(NSString *_Nonnull)url
-                handle:(void(^)(DPNetworking *handle))handle
+                handle:(nullable void(^)(DPNetworking *handle))handle
              parameter:(NSDictionary * _Nullable )parameters
                 sucess:(nonnull void(^)(id _Nonnull responseObject))sucess
                failure:(nullable void(^)(id _Nonnull error))failure{

@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+NS_ASSUME_NONNULL_BEGIN
+
 @class DPNetworking;
 /**
 
@@ -82,7 +84,7 @@ typedef void(^BackBlock)(UIViewController * _Nonnull vc,id _Nullable obj);
  @param handle 对本次请求如有特殊设置，配置handle
  */
 - (void)getRequest:(NSString *_Nonnull)url
-            handle:(void(^)(DPNetworking *handle))handle
+            handle:(nullable void(^)(DPNetworking *handle))handle
          parameter:(id _Nullable )parameters
             sucess:(nonnull void(^)(id _Nonnull responseObject))sucess
            failure:(nullable void(^)(id _Nonnull error))failure;
@@ -106,7 +108,7 @@ typedef void(^BackBlock)(UIViewController * _Nonnull vc,id _Nullable obj);
  @param handle 对本次请求如有特殊设置，配置handle
  */
 - (void)postRequest:(NSString *_Nonnull)url
-             handle:(void(^)(DPNetworking *handle))handle
+             handle:(nullable void(^)(DPNetworking *handle))handle
           parameter:(id _Nullable )parameters
              sucess:(nonnull void(^)(id _Nonnull responseObject))sucess
             failure:(nullable void(^)(id _Nonnull error))failure;
@@ -130,7 +132,7 @@ typedef void(^BackBlock)(UIViewController * _Nonnull vc,id _Nullable obj);
  @param handle 对本次请求如有特殊设置，配置handle
  */
 - (void)patchRequest:(NSString *_Nonnull)url
-              handle:(void(^)(DPNetworking *handle))handle
+              handle:(nullable void(^)(DPNetworking *handle))handle
            parameter:(id _Nullable )parameters
               sucess:(nonnull void(^)(id _Nonnull responseObject))sucess
              failure:(nullable void(^)(id _Nonnull error))failure;
@@ -153,7 +155,7 @@ typedef void(^BackBlock)(UIViewController * _Nonnull vc,id _Nullable obj);
  @param handle 对本次请求如有特殊设置，配置handle
  */
 - (void)putRequest:(NSString *_Nonnull)url
-            handle:(void(^)(DPNetworking *handle))handle
+            handle:(nullable void(^)(DPNetworking *handle))handle
          parameter:(id _Nullable )parameters
             sucess:(nonnull void(^)(id _Nonnull responseObject))sucess
            failure:(nullable void(^)(id _Nonnull error))failure;
@@ -177,8 +179,10 @@ typedef void(^BackBlock)(UIViewController * _Nonnull vc,id _Nullable obj);
  @param handle 对本次请求如有特殊设置，配置handle
  */
 - (void)delRequest:(NSString *_Nonnull)url
-            handle:(void(^)(DPNetworking *handle))handle
+            handle:(nullable void(^)(DPNetworking *handle))handle
          parameter:(id _Nullable )parameters
             sucess:(nonnull void(^)(id _Nonnull responseObject))sucess
            failure:(nullable void(^)(id _Nonnull error))failure;
 @end
+
+NS_ASSUME_NONNULL_END

@@ -8,6 +8,8 @@
 
 #import "BaseViewController.h"
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface BaseDetailsViewController : BaseViewController
 
 @property (nonatomic, strong) UITableView *tableview;
@@ -39,3 +41,5 @@
 //- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath;
 
 @end
+
+NS_ASSUME_NONNULL_END

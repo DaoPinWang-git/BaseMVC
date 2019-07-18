@@ -255,7 +255,7 @@
 			};
 			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "BaseMVC" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -337,7 +337,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-BaseMVC_Example/Pods-BaseMVC_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-BaseMVC_Example/Pods-BaseMVC_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/BaseMVC/BaseMVC.framework",
 				"${BUILT_PRODUCTS_DIR}/DPNetworking/DPNetworking.framework",
@@ -358,7 +358,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BaseMVC_Example/Pods-BaseMVC_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BaseMVC_Example/Pods-BaseMVC_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D4E5F626306E563C6F28AB6A /* [CP] Embed Pods Frameworks */ = {
@@ -367,7 +367,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-BaseMVC_Tests/Pods-BaseMVC_Tests-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-BaseMVC_Tests/Pods-BaseMVC_Tests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/DPNetworking/DPNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
@@ -386,7 +386,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BaseMVC_Tests/Pods-BaseMVC_Tests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BaseMVC_Tests/Pods-BaseMVC_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
